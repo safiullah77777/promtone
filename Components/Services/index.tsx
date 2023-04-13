@@ -16,7 +16,7 @@ const Services = () => {
     },
     {
       img: {
-        src: paid,
+        src: promote,
         alt: "",
       },
       title: "Promote",
