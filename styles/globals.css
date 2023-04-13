@@ -23,6 +23,4 @@ body {
   @apply font-inters;
   font-family: 'Inter';
 }
-
-
 @tailwind utilities;
