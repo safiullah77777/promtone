@@ -7,12 +7,12 @@ import scan from "../../public/assets/images/scan.png";
 
 const Banner = () => {
   return (
-    <div className="flex gap-[16rem] pt-[15.5rem] px-[7.4rem] justify-center">
+    <div className="flex gap-[16rem] pt-[15.5rem] px-[7.4rem] justify-center max-[1023]:flex-col flex-wrap">
       <div className="max-w-[70rem] flex flex-col gap-[5.5rem]">
         <h1 className="max-w-[64.4rem] text-[#000000] text-[6.4rem] leading-[7.7rem] font-700">
           Get Paid - Promote local brands
         </h1>
-        <p className="text-secondary text-[2.4rem] leading-[2.9rem] ">
+        <p className="text-secondary normal-text ">
           Lorem ipsum dolor sit amet consectetur. Egestas cursus vulputate
           vulputate consequat ornare imperdiet. Interdum proin tortor nisl
           hendrerit bibendum nulla. Sodales malesuada pulvinar praesent lectus

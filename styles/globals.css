@@ -23,4 +23,7 @@ body {
   /* @apply font-inters; */
   font-family: 'Inter';
 }
+.normal-text{
+  @apply text-[2.4rem] leading-[2.9rem]
+}
 @tailwind utilities;
