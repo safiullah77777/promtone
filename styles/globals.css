@@ -20,7 +20,7 @@ html {
 }
 html,
 body {
-  @apply font-inters;
+  /* @apply font-inters; */
   font-family: 'Inter';
 }
 @tailwind utilities;
