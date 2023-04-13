@@ -7,7 +7,7 @@ import scan from "../../public/assets/images/scan.png";
 
 const Banner = () => {
   return (
-    <div className="flex gap-[16rem] pt-[15.5rem] px-[7.4rem] ">
+    <div className="flex gap-[16rem] pt-[15.5rem] px-[7.4rem] justify-center">
       <div className="max-w-[70rem] flex flex-col gap-[5.5rem]">
         <h1 className="max-w-[64.4rem] text-[#000000] text-[6.4rem] leading-[7.7rem] font-[900]">
           Get Paid - Promote local brands
@@ -20,7 +20,7 @@ const Banner = () => {
           elit.
         </p>
         <div className="flex mt-[5rem] relative gap-[2.4rem]">
-          <Image src={apple} alt="" />
+          <Image src={apple} alt="" className="z-[1]" />
           <Image src={google} alt="" />
           <Image src={dots} alt="" className="absolute top-0 -left-[1.3rem]" />
         </div>

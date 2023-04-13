@@ -7,6 +7,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+      gap:{},
       fontFamily: {
         inters: ["inters"],
       },
